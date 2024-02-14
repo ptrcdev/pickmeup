@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(resources/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(76, 76, 249, 0.707);
+    font-family: "East Sea Dokdo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+header .nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
+
+header .nav li {
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 40px;
+}
+
+header img {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main .joke-container {
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 255, 234, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    height: 500px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.joke-container:hover {
+    box-shadow: 0 10px 15px 0 rgba(255, 0, 0, 0.2);
+}
+
+main .text-placer {
+    width: 450px;
+    height: 300px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .text-placer h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    text-align: center;
+    overflow: scroll;
+}
+
+main .text-placer h3 {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    overflow: scroll;
+    text-decoration: underline;
+    color: midnightblue;
+}
+
+main .buttons-placer {
+    display: flex;
+    width: 500px;
+}
+
+main .buttons-placer .save {
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 20px;
+    width: 150px;
+    justify-self: flex-start;
+    background-color: rgba(102, 48, 241, 0.788);
+    color: rgb(228, 228, 228);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main .buttons-placer .new {
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 20px;
+    width: 150px;
+    margin-left: 170px;
+    background-color: rgba(102, 48, 241, 0.788);
+    color: rgb(228, 228, 228);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
