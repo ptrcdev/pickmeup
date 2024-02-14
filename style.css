@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(resources/images/);
+    background-image: url(resources/images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -86,6 +86,7 @@ main .buttons-placer {
     width: 500px;
 }
 
+/*
 main .buttons-placer .save {
     border-radius: 25px;
     height: 62px;
@@ -101,9 +102,9 @@ main .buttons-placer .save {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
+}*/
 
-/*
+
 main .buttons-placer .new {
     border-radius: 25px;
     transition: 0.5s;
@@ -120,7 +121,7 @@ main .buttons-placer .new {
     font-weight: 400;
     font-style: normal;
 }
-*/
+
 
 .socials {
     display: flex;
